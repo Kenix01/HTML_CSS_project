@@ -1,16 +1,25 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 :root {
     --black-color: black;
     --dark-blue: #0b2330;
     --white-color: white;
     --gray-blue: #375361;
+    --gray-light: #C3CACD;
     --yellow-color: #F9C600;
     --blue-color: #51cdbb;
+    --violet-color: #bc78ef;
+    --pink-color: #f1ece6;
+    --purpure-color: #C9316F;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 16px 36px;
+    margin: 16px 0;
     Width: 1440px;
 
 }
@@ -99,6 +108,14 @@ h3 {
     line-height: 40px;
     color: var(--dark-blue);
     letter-spacing: 0.34px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--dark-blue);
 }
 
 .main_content {
@@ -193,4 +210,216 @@ h3 {
 .blok_start_free > button {
     margin-top: 113px;
     margin-bottom: 160px;
+}
+
+.violet_blok {
+    width: 1260px;
+    height: 537px;
+    border-radius: 10px;
+    margin: 0 32px 136px 148px;
+    background: var(--violet-color);
+}
+
+.violet_blok > img {
+    position: relative;
+    right: 115px;
+}
+
+.violet_blok h2 {
+    margin: 103px 183px 39px 75px;
+}
+
+.mini_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--dark-blue);
+    margin: 0 122px 147px 75px;
+}
+
+.customer_informed {
+    margin: 0 0 0 148px;
+}
+
+.customer_informed >img {
+    margin-bottom: 13px;
+}
+
+.customer_informed >h2 {
+    margin-right: 699px;
+    margin-bottom: 26px;
+}
+
+.customer_informed  >.main_text {
+    margin: 0;
+    color: var(--gray-blue);
+}
+
+.body_content {
+    margin-top: 173px;
+}
+
+.body_content_blok {
+    margin: 0 32px 32px 148px;
+}
+
+.right_blok > h3 {
+    margin: 23px 0 29px 0;
+}
+
+.right_blok > .mini_text {
+    width: 457px;
+    color: var(--gray-blue);
+    margin: 0;
+}
+
+.button_body {
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 144px;
+    height: 54px;
+    background: var(--white-color);
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 64px;
+}
+
+.body_content_blok {
+    margin-top: 145px;
+}
+
+.body_content_blok > img {
+    margin: 0 32px 0 263px;
+}
+
+.pink_blok {
+    Width: 1440px;
+    Height: 960px;
+    margin-top: 130px;
+    background: var(--pink-color);
+}
+
+.concept_menu {
+    position: relative;
+    top: -42px;
+    left: 147px;
+}
+
+.pink_blok_head {
+    margin-left: 122px;
+    margin-right: 300px;
+}
+
+.pink_blok_head > h1 {
+    margin-bottom: 0;
+}
+
+.pink_blok_head > img {
+    margin-top: 96px;
+}
+
+.pink_blok_content > img {
+    margin: 122px 141px 96px 122px;
+}
+
+.pink_blok_content_txt {
+    width: 588px;
+    height: 484px;
+    border-top: 3px solid var(--purpure-color);
+    margin-top: 120px;
+}
+
+.pink_blok_content_txt h4 {
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+
+.pink_blok_content_txt > .mini_text {
+    margin: 36px 0;
+    width: 500px;
+    color: var(--gray-blue);
+}
+
+.js_ar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pink_blok_txt {
+    gap: 8px;
+}
+
+.pink_blok_txt > div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--dark-blue);
+}
+
+.analysis {
+    Width: 588px;
+    Height: 82px;
+    margin-top: 20px;
+    border-top: 3px solid var(--gray-light);
+    border-bottom: 3px solid var(--gray-light);
+}
+
+.templates {
+    Width: 588px;
+    Height: 82px;
+    border-bottom: 3px solid var(--gray-light);
+    margin-bottom: 25px;
+}
+
+.analysis > h4 {
+    margin: 25px 0 23px 0;
+}
+
+.analysis > img {
+    Width: 24px;
+    Height: 24px;
+}
+
+.integrations {
+    Width: 1440px;
+    Height: 418px;
+    margin-top: 160px;
+    margin-bottom: 210px;
+}
+
+.integrations_blok_right {
+    margin-left: 148px;
+}
+
+.integrations_blok_right > h3 {
+    margin-top: 15px;
+    margin-bottom: 36px;
+    width: 640px;
+    color: var(--dark-blue);
+}
+
+.integrations_button {
+    background: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 208px;
+    height: 54px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.integrations > img {
+    margin-left: 202px;
+    position: relative;
+    bottom: 40px;
 }
